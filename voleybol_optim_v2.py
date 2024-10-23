@@ -9,6 +9,8 @@ class CostCalculatorGUI:
         self.root = root
         self.root.title("Service Cost Calculator")
 
+        # Change icon
+        self.root.iconbitmap('ball.ico')
         # Predefined locations for the dropdown menu
         self.locations = ["100.", "asti", "dikmen", "Manual"]
 
